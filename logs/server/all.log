@@ -1,0 +1,506 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-08T06:48:55.419Z"}
+info: Connected to the database. {"timestamp":"2022-01-08T06:49:00.012Z"}
+error: uncaughtException: appErrorHandler is not defined
+ReferenceError: appErrorHandler is not defined
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:33:9)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14) {"date":"Sat Jan 08 2022 12:40:22 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":83421},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19038408,"external":21261894,"heapTotal":75649024,"heapUsed":52710592,"rss":104398848},"pid":8404,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: appErrorHandler is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:33:9)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)","timestamp":"2022-01-08T07:10:22.828Z","trace":[{"column":9,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":33,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false}]}
+error: uncaughtException: morgan is not defined
+ReferenceError: morgan is not defined
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14) {"date":"Sat Jan 08 2022 12:53:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":84194},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18957954,"external":21181440,"heapTotal":75911168,"heapUsed":51523784,"rss":104767488},"pid":9116,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: morgan is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:28:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)","timestamp":"2022-01-08T07:23:15.549Z","trace":[{"column":5,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":28,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-08T07:28:37.713Z"}
+info: Connected to the database. {"timestamp":"2022-01-08T07:28:41.863Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Sat Jan 08 2022 14:00:09 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":88207},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19015365,"external":21258134,"heapTotal":75911168,"heapUsed":51113136,"rss":105381888},"pid":5892,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-08T08:30:09.402Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-08T16:57:38.377Z"}
+info: Connected to the database. {"timestamp":"2022-01-08T16:57:43.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T14:54:02.147Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:54:05.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T14:57:30.190Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T14:57:30.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T16:34:15.304Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T16:34:15.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T17:28:21.578Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:28:21.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T17:37:17.904Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T17:37:18.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T18:10:09.449Z"}
+error: Could not connect to the database. connection timed out {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-09T18:20:00.864Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T18:25:00.423Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T18:25:00.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T18:30:24.983Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T18:30:25.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T18:45:09.880Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T18:45:10.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T18:51:35.333Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T18:51:35.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T18:58:04.469Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T18:58:04.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T19:06:58.058Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T19:06:58.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T19:08:05.892Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T19:08:05.944Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T19:22:17.100Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T19:22:17.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T19:23:06.387Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T19:23:06.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T19:23:55.966Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T19:23:56.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-09T19:24:32.379Z"}
+info: Connected to the database. {"timestamp":"2022-01-09T19:24:32.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T05:50:48.361Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T05:50:48.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:09:56.567Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:09:56.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:10:13.339Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:10:13.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:25:31.731Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:25:31.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:26:07.465Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:26:07.509Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:33:26.185Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:33:26.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:35:42.747Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:35:42.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:36:30.563Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:36:30.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:44:07.019Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:44:07.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:45:39.013Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:45:39.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:46:26.792Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:46:26.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T06:54:54.739Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:54:54.784Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T08:16:59.302Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:16:59.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T08:25:39.814Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T08:25:39.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T09:36:56.029Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:36:56.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T09:39:05.518Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:39:05.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T09:44:08.856Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:44:08.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T10:14:50.601Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T10:14:50.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T11:04:14.931Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:04:14.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T13:06:31.107Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:06:31.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T13:14:11.104Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:14:11.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T13:15:31.705Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:15:31.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T13:23:22.735Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:23:22.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T13:32:39.028Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:32:39.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T13:38:55.834Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:38:55.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T13:49:10.250Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:49:10.305Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T14:04:05.950Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T14:04:06.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T14:49:42.082Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T14:49:42.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T14:50:37.515Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T14:50:37.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T14:51:10.170Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T14:51:10.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T14:51:28.136Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T14:51:28.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T16:09:49.334Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:09:49.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T16:18:28.795Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:18:29.006Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Jan 10 2022 21:48:37 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15284},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18519268,"external":20762037,"heapTotal":79884288,"heapUsed":38830040,"rss":108662784},"pid":5808,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-10T16:18:37.815Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-10T16:19:37.680Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:19:37.784Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Jan 10 2022 21:49:37 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15344},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19102139,"external":21344908,"heapTotal":76345344,"heapUsed":56028616,"rss":106885120},"pid":6824,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-10T16:19:38.130Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:21:39.781Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:21:39.862Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:28:25.080Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:28:25.124Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:35:05.659Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:35:05.705Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:35:57.936Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:35:57.981Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:37:14.149Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:37:14.223Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:38:37.236Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:38:37.349Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:39:23.954Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:39:24.028Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:42:22.619Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:42:22.719Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:44:20.607Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:44:20.668Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:49:58.551Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:49:58.677Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:50:13.930Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:50:14.089Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:53:14.032Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:53:14.196Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T16:54:33.279Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T16:54:33.359Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T17:00:14.360Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:00:14.438Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T17:06:53.287Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:06:53.367Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T17:15:14.676Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:15:14.714Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T17:16:53.433Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:16:53.517Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T17:17:03.936Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:17:03.987Z"}
+info: Server started at http://localhost:4001/api/v1/ {"timestamp":"2022-01-10T17:22:29.407Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T17:22:29.502Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T05:46:10.148Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-11T05:46:40.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T05:57:50.087Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T05:57:50.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T06:12:01.619Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T06:12:01.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T06:13:38.474Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T06:13:38.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T06:22:53.599Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T06:22:53.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T06:24:17.326Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T06:24:17.360Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T06:37:09.517Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T06:37:09.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T07:08:53.347Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:08:53.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T07:30:57.683Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:30:57.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T07:52:13.057Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T07:52:13.126Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\router\index.js:464:13)
+    at routes (E:\CFP_BZ\Fundoo_Notes\src\routes\/index.js:16:10)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Jan 11 2022 13:25:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6680},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18528222,"external":20751708,"heapTotal":80146432,"heapUsed":38859520,"rss":109780992},"pid":6168,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\Fundoo_Notes\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-11T07:55:48.154Z","trace":[{"column":13,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\router\index.js:464:13)
+    at routes (E:\CFP_BZ\Fundoo_Notes\src\routes\/index.js:16:10)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Jan 11 2022 13:27:32 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6784},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18695771,"external":20919257,"heapTotal":80146432,"heapUsed":39932152,"rss":110362624},"pid":2484,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\Fundoo_Notes\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-11T07:57:32.314Z","trace":[{"column":13,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\router\index.js:464:13)
+    at routes (E:\CFP_BZ\Fundoo_Notes\src\routes\/index.js:16:10)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Jan 11 2022 13:31:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7017},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18981255,"external":21204741,"heapTotal":78438400,"heapUsed":42819144,"rss":108597248},"pid":6048,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\Fundoo_Notes\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-11T08:01:25.265Z","trace":[{"column":13,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\router\index.js:464:13)
+    at routes (E:\CFP_BZ\Fundoo_Notes\src\routes\/index.js:16:10)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Jan 11 2022 13:33:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7117},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18989447,"external":21212933,"heapTotal":78700544,"heapUsed":43223896,"rss":108314624},"pid":504,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\Fundoo_Notes\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-11T08:03:04.771Z","trace":[{"column":13,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T08:27:02.731Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T08:27:02.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T10:03:07.947Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"Error: \n    at new MongooseError (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\error\\mongooseError.js:7:1)\n    at new MongooseServerSelectionError (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\error\\serverSelection.js:26:1)\n    at NativeConnection.Connection.openUri (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)","timestamp":"2022-01-11T10:03:37.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:12:09.612Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:12:09.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:21:07.636Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:21:07.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:23:43.077Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:23:43.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:25:06.729Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:25:06.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:27:17.212Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:27:17.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:29:42.347Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:29:42.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:30:30.817Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:30:30.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:30:52.662Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:30:52.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T11:37:14.306Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T11:37:14.358Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:06:23.411Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:06:23.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:07:57.367Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:07:57.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:08:07.421Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:08:07.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:22:47.215Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:22:47.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:39:59.520Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:39:59.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:41:52.315Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:41:52.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:42:28.246Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:42:28.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:43:25.322Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:43:25.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:43:50.211Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:43:50.270Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:46:21.597Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:46:21.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:47:44.453Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:47:44.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:48:51.002Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:48:51.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T12:51:07.235Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T12:51:07.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:05:04.666Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:05:04.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:06:09.220Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:06:09.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:07:52.693Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:07:52.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:24:36.046Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:24:36.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:39:35.010Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:39:35.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:40:09.057Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:40:09.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:41:45.650Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:41:45.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:44:12.791Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:44:12.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:47:15.597Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:47:15.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T13:49:29.153Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T13:49:29.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:02:34.421Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:02:34.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:19:18.742Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:19:18.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:31:16.259Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:31:16.299Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:35:36.070Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:35:36.113Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:38:00.190Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:38:00.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:40:24.911Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:40:24.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:48:39.479Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:48:39.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:51:45.924Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:51:45.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:52:57.363Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:52:57.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T14:56:27.065Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T14:56:27.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:01:27.060Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:01:27.103Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:04:05.403Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:04:05.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:04:54.674Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:04:54.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:09:02.538Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:09:02.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:10:09.233Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:10:09.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:11:51.521Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:11:51.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:13:24.481Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:13:24.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:13:48.058Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:13:48.132Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:14:17.453Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:14:17.502Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:15:17.781Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:15:17.894Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:15:26.805Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:15:26.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:15:54.903Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:15:54.963Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:16:49.223Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:16:49.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:18:57.052Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:18:57.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:22:09.783Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:22:09.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:27:21.493Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:27:21.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:28:27.781Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:28:27.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:29:48.603Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:29:48.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:35:42.061Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:35:42.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:36:38.510Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:36:38.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:42:28.912Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:42:28.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:43:21.460Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:43:21.502Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:46:44.477Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:46:44.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:53:27.290Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:53:27.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T15:54:13.307Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T15:54:13.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T16:02:13.839Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T16:02:13.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T16:04:25.963Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T16:04:26.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T16:44:39.049Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T16:44:39.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T16:50:07.454Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T16:50:07.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T16:50:28.707Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T16:50:28.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:01:50.647Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:01:50.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:02:56.716Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:02:56.771Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:11:28.439Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:11:28.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:15:00.753Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:15:00.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:16:33.799Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:16:33.849Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:38:01.843Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:38:01.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:43:16.839Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:43:16.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:43:32.398Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:43:32.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:45:51.346Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:45:51.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:46:48.682Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:46:48.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:49:11.499Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:49:11.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:51:02.722Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:51:02.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T17:51:39.150Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T17:51:39.183Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:01:30.238Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:01:30.292Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:04:42.224Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:04:42.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:06:14.044Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:06:14.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:07:06.538Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:07:06.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:08:18.220Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:08:18.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:09:04.594Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:09:04.637Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:16:53.957Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:16:54.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:24:05.142Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:24:05.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:25:17.518Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:25:17.612Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:29:29.743Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:29:29.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:31:49.596Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:31:49.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:32:40.016Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:32:40.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:39:59.964Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:40:00.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:48:25.435Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:48:25.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:51:22.436Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:51:22.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:52:56.328Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:52:56.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:57:06.233Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:57:06.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:00:00.913Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:00:00.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:01:13.837Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:01:13.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:02:27.575Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:02:27.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:11:13.204Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:11:13.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:16:59.166Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:16:59.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:17:14.028Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:17:14.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:17:35.765Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:17:35.830Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:22:14.185Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:22:14.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:23:32.121Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:23:32.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:27:30.011Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:27:30.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:30:47.862Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:30:47.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:32:11.388Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:32:11.441Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:35:21.777Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:35:21.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:47:44.274Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:47:44.358Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:01:58.146Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:01:58.205Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:03:45.348Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:03:45.427Z"}
