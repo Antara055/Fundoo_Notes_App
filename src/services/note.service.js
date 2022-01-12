@@ -52,10 +52,19 @@ export const updateNote = async(req,res)=>{
 
 //delete single notes
   export const deleteNote = async (req) => {
-    console.log(req)
   const data=await Note.findOne({_id:req.id});
-  //console.log(data)
-  //await Note.deleteOne({_id:req.id});
+  await Note.deleteOne({_id:req.id});
   return '';
   };
   
+  //fetched archive note
+  export const isArchived=async (body)=>{
+    const archivedNotes=await Note.find({userId:body.data.id,isArchived:true});
+    return archivedNotes;
+  }
+
+  //fetched deleted note
+  export const isDelete=async (body)=>{
+    const deletedNote=await Note.find({userId:body.data.id,isDeleted:true});
+    return deletedNote;
+  }

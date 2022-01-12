@@ -86,7 +86,6 @@ import * as NoteService from '../services/note.service';
    */
   export const deleteNote = async (req, res, next) => {
     try {
-      console.log(req.body)
       await NoteService.deleteNote(req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
@@ -97,5 +96,36 @@ import * as NoteService from '../services/note.service';
       next(error);
     }
   };
+
+  //
+
+  export const isArchived=async(req,res)=>{
+    try {
+      console.log(req.body)
+      const data= await NoteService.isArchived(req.body);
+      res.status(HttpStatus.OK).json({
+        code:HttpStatus.OK,
+        data:data,
+        message:"Fetched Archived Notes Sucessfully"
+      })
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  export const isDelete = async(req,res)=>{
+    try {
+      const data = await NoteService.isDelete(req.body);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: "Fetched Deleted Notes Sucessfully"
+      })
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  
   
   

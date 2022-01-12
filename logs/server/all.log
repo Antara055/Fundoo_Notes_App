@@ -584,3 +584,53 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T0
 info: Connected to the database. {"timestamp":"2022-01-12T06:49:41.084Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T06:54:03.896Z"}
 info: Connected to the database. {"timestamp":"2022-01-12T06:54:03.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T06:55:18.792Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T06:55:18.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:23:44.438Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:23:44.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:33:38.576Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:33:38.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:39:22.172Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:39:22.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:41:58.498Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:41:58.583Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:46:51.747Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:46:51.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:48:26.435Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:48:26.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:51:27.567Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:51:27.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:55:32.630Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:55:32.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:55:47.605Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:55:47.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T07:57:02.098Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T07:57:02.134Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Wed Jan 12 2022 13:28:21 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4671},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18980493,"external":21223262,"heapTotal":81457152,"heapUsed":43357040,"rss":111271936},"pid":5092,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-12T07:58:21.870Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (E:\CFP_BZ\Fundoo_Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (E:\CFP_BZ\Fundoo_Notes\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\Fundoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Wed Jan 12 2022 13:28:39 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4689},"process":{"argv":["node","E:\\CFP_BZ\\Fundoo_Notes\\src\\index.js"],"cwd":"E:\\CFP_BZ\\Fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19029663,"external":21272432,"heapTotal":80146432,"heapUsed":58016600,"rss":108744704},"pid":5740,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-12T07:58:39.630Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"E:\\CFP_BZ\\Fundoo_Notes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\Fundoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T09:08:45.563Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T09:08:45.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T09:11:23.965Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T09:11:24.010Z"}
