@@ -23,6 +23,7 @@ export const newNote = async (req,res) => {
 
 //get all notes
 export const getAllNotes = async (req,res) => {
+  console.log(req)
     const data = await Note.find({userId:req.data.id});
     return data;
 };
@@ -35,16 +36,16 @@ export const getNote=async(req,res)=>{
 
 //update single notes
 export const updateNote = async(req,res)=>{
-  //console.log(req.data)
   const previousData = await Note.find({
     _id: req.id
   });
+  console.log(previousData)
   const updatData = await Note.updateOne({_id:req.id},{
-  title:req.title?req.title:previousData.title,
-  description:req.description?req.description:previousData.description,
-  color:req.color?req.color:previousData.color,
-  isArchived:req.isArchived?req.isArchived:previousData.isArchived,
-  isDeleted:req.isDeleted?req.isDeleted:previousData.isDeleted
+  title:req.title?req.title:previousData[0].title,
+  description:req.description?req.description:previousData[0].description,
+  color:req.color?req.color:previousData[0].color,
+  isArchived:req.isArchived?req.isArchived:previousData[0].isArchived,
+  isDeleted:req.isDeleted?req.isDeleted:previousData[0].isDeleted
   },{new:true});
   return updatData
 }
@@ -53,8 +54,8 @@ export const updateNote = async(req,res)=>{
   export const deleteNote = async (req) => {
     console.log(req)
   const data=await Note.findOne({_id:req.id});
-  console.log(data)
-  await Note.deleteOne({_id:req.id});
+  //console.log(data)
+  //await Note.deleteOne({_id:req.id});
   return '';
   };
   
