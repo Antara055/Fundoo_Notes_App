@@ -29,6 +29,11 @@
             "date": 1641925909197,
             "name": "logs\\server\\daily\\2022-01-12.log",
             "hash": "3fb897a8650b4c8672a6b27e9c0c868a"
+        },
+        {
+            "date": 1642233463518,
+            "name": "logs\\server\\daily\\2022-01-15.log",
+            "hash": "38fe9f7be5f03ebc6ba884e5efc9257c"
         }
     ]
 }
