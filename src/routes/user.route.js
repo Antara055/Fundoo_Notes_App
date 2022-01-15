@@ -11,6 +11,12 @@ router.post('/register', newUserValidator, userController.newUser);
 //login
 router.post("/login", userController.login);
 
+//forget password
+router.post("/forgetpassword",userController.forgetpassword)
+
+//Reset password
+router.put("/resetpassword",userAuth,userController.resettpassword)
+
 //route to get all users
 //router.get('/getall',userAuth, noteController.getAllNotes);
 

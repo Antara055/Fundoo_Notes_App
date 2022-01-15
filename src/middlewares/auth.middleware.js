@@ -25,7 +25,6 @@ export const userAuth = async (req, res, next) => {
         req.body['data']=decode;
         req.bearerToken=decode;
         //console.log(decode)
-
         next();
       }
     }))

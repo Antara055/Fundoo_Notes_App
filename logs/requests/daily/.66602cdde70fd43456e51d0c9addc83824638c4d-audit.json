@@ -29,6 +29,21 @@
             "date": 1641925909455,
             "name": "logs\\requests\\daily\\2022-01-12.log",
             "hash": "cfdd49ccb75307b1bc3c360ae3f72b4b"
+        },
+        {
+            "date": 1642066758929,
+            "name": "logs\\requests\\daily\\2022-01-13.log",
+            "hash": "e28852284dcb3760485491d398f0f49e"
+        },
+        {
+            "date": 1642139553503,
+            "name": "logs\\requests\\daily\\2022-01-14.log",
+            "hash": "b816baae7c339750d56cb54b55e08800"
+        },
+        {
+            "date": 1642224437163,
+            "name": "logs\\requests\\daily\\2022-01-15.log",
+            "hash": "21343bc9824f435dd2401fa9fbca865c"
         }
     ]
 }

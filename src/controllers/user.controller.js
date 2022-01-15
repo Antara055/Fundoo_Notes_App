@@ -31,5 +31,34 @@ export const login = async(req,res,next)=>{
     })
     next(error);
   }
+};
+
+//Forget password
+export const forgetpassword=async(req,res,next)=>{
+  try{
+    //console.log(req.body)
+    const data = await UserService.forgetpassword(req.body);
+    res.status(HttpStatus.OK).json({
+    code: HttpStatus.OK,
+    data: data,
+    message: 'Mail Sent'
+  });
+} catch (error) {
+  next(error);
 }
+};
+
+//Reset password
+export const resettpassword = async (req, res, next) => {
+  try {
+    const data = await UserService.resettpassword(req);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Reset Password successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
 

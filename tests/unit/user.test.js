@@ -15,13 +15,13 @@ describe('User', () => {
 
     const mongooseConnect = async () => {
       await mongoose.connect(process.env.DATABASE_TEST);
-      clearCollections();
+      //clearCollections();
     };
 
     if (mongoose.connection.readyState === 0) {
       mongooseConnect();
     } else {
-      clearCollections();
+      //clearCollections();
     }
 
     done();
