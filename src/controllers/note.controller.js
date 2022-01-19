@@ -101,7 +101,6 @@ import * as NoteService from '../services/note.service';
 
   export const isArchived=async(req,res)=>{
     try {
-      console.log(req.body)
       const data= await NoteService.isArchived(req.body);
       res.status(HttpStatus.OK).json({
         code:HttpStatus.OK,

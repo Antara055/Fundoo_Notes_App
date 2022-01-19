@@ -1,4 +1,4 @@
-import { expect } from 'chai';
+/* import { expect } from 'chai';
 import * as UserService from '../../src/services/user.service';
 import mongoose from 'mongoose';
 
@@ -15,13 +15,13 @@ describe('User', () => {
 
     const mongooseConnect = async () => {
       await mongoose.connect(process.env.DATABASE_TEST);
-      clearCollections();
+      //clearCollections();
     };
 
     if (mongoose.connection.readyState === 0) {
       mongooseConnect();
     } else {
-      clearCollections();
+      //clearCollections();
     }
 
     done();
@@ -34,3 +34,4 @@ describe('User', () => {
     });
   });
 });
+ */

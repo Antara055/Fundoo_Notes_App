@@ -1,0 +1,97 @@
+{
+    "UserData1": {
+        "firstName": "aaaaa",
+        "lastName": "aaaaa",
+        "email": "aaaa@gmail.com",
+        "password": "aaaaaaaaa"
+    },
+    "UserData2": {
+        "firstName": "aaaaa",
+        "lastName": "aaaaa",
+        "email": "aaaagmail.com",
+        "password": "aaaaaaaaa"
+    },
+    "UserData3": {
+        "firstName": "aaaaa",
+        "lastName": "aaaaa",
+        "email": "aaaa@gmail.com",
+        "password": "aaaaaaaaa"
+    },
+    "UserData4": {
+        "firstName": "bb",
+        "lastName": "bbb",
+        "email": "bbbb@gmail.com",
+        "password": "bbbbbbbbbb"
+    },
+    "UserData5": {
+        "firstName": "bbb",
+        "lastName": "b",
+        "email": "bbbb@gmail.com",
+        "password": "bbbbbbbbbb"
+    },
+    "UserData6": {
+        "firstName": "bbbb",
+        "lastName": "bbbb",
+        "email": "bbbb@gmail.com",
+        "password": "bbbbbb"
+    },
+    "LoginData1": {
+        "email": "fruits@gmail.com",
+        "password": "fruitsname"
+    },
+    "LoginData2": {
+        "email": "fruit@gmail.com",
+        "password": "fruit"
+    },
+    "forgetPassData1": {
+        "email": "resetpassword@gmail.com"
+    },
+    "forgetPassData2": {
+        "email": "k@gmail.com"
+    },
+    "resetPass1": {
+        "email": "resetpassword@gmail.com",
+        "password": "resetpassword1"
+    },
+    "resetPass2": {
+        "email": "resetpass@gmail.com",
+        "password": "resetpassword1"
+    },
+    "addNote1": {
+        "title": "Apple",
+        "description": "fruits",
+        "color": "red",
+        "isArchived": "true",
+        "isDeleted": "true"
+    },
+    "addNote2": {
+        "description": "fruits",
+        "color": "red",
+        "isArchived": "true",
+        "isDeleted": "true"
+    },
+    "getAllNote1": {
+        "id": "61e3c1823e983f19701bd8e4"
+    },
+    "getNoteByID1": {
+        "id": "61e84b77b7738b1b98be10ae"
+    },
+    "updateNote1": {
+        "id": "61e8508942e92d1038319d84",
+        "color": "yellow",
+        "isArchived":"false",
+        "isDeleted":"false"
+    },
+    "deleteNoteByID1":{
+        "id":"61e8557521f48c1b943362bb"
+    },
+    "deleteNoteByID2":{
+        "id":"61e85759c67ac91a3c7f7eeb"
+    },
+    "archived1":{
+        "id":"61e3c1823e983f19701bd8e4"
+    },
+    "isDelete1":{
+    "id":"61e3c1823e983f19701bd8e4"
+    }
+}

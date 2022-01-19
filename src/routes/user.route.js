@@ -6,16 +6,16 @@ import { userAuth } from '../middlewares/auth.middleware';
 const router = express.Router();
 
 //Register
-router.post('/register', newUserValidator, userController.newUser);
+router.post('/register', newUserValidator, userController.newUser)
 
 //login
 router.post("/login", userController.login);
 
-//route to get all users
-//router.get('/getall',userAuth, noteController.getAllNotes);
+//forget password
+router.post("/forgetpassword",userController.forgetpassword)
 
-//route to create a new user
-//router.post("/createNote",userAuth,noteController.addNote);
+//Reset password
+router.put("/resetpassword",userAuth,userController.resettpassword)
 
 
 //route to get a single user by their user id

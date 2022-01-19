@@ -1,8 +1,4 @@
-import { getNotes } from '../controllers/note.controller';
 import Note from '../models/note.model';
-const bcrypt=require("bcrypt");
-const jwt=require("jsonwebtoken");
-
 
 //create new notes
 export const newNote = async (req,res) => {
@@ -23,7 +19,6 @@ export const newNote = async (req,res) => {
 
 //get all notes
 export const getAllNotes = async (req,res) => {
-  console.log(req)
     const data = await Note.find({userId:req.data.id});
     return data;
 };
@@ -39,7 +34,6 @@ export const updateNote = async(req,res)=>{
   const previousData = await Note.find({
     _id: req.id
   });
-  console.log(previousData)
   const updatData = await Note.updateOne({_id:req.id},{
   title:req.title?req.title:previousData[0].title,
   description:req.description?req.description:previousData[0].description,
@@ -52,8 +46,7 @@ export const updateNote = async(req,res)=>{
 
 //delete single notes
   export const deleteNote = async (req) => {
-  const data=await Note.findOne({_id:req.id});
-  await Note.deleteOne({_id:req.id});
+  const data= await Note.findByIdAndDelete({_id:req.id})
   return '';
   };
   

@@ -1,0 +1,268 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Funddoo Backened",
+    "description": "This documentation guides the user about the APIs availabe in the system.",
+    "version": "1.1.0"
+  },
+  "host": "localhost:3000",
+  "basePath": "/api/v1/users/",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/register": {
+      "post": {
+        "tags": [
+          ""
+        ],
+        "summary": "Register a user.",
+        "description": "Registration  user",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Register Data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UserRegistration"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500":{
+            "description":"Internal server error"
+          }
+        }
+      }
+    },
+  
+  "/login": {
+    "post": {
+      "tags": [
+        ""
+      ],
+      "summary": "Login a user.",
+      "description": "Log in  user",
+      "parameters": [
+        {
+          "in": "body",
+          "name": "Log in Data",
+          "required": false,
+          "schema": {
+            "$ref": "#/definitions/UserLogin"
+          }
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "responses": {
+        "200": {
+          "description": "OK"
+        },
+        "500":{
+          "description":"Internal server error"
+        }
+      }
+    }
+  },
+
+  "/forgetpassword": {
+    "post": {
+      "tags": [
+        ""
+      ],
+      "summary": "forget password",
+      "description": "to reset new password user need to forget password first",
+      "parameters": [
+        {
+          "in": "body",
+          "name": "Forget Password",
+          "required": false,
+          "schema": {
+            "$ref": "#/definitions/ForgetPassword"
+          }
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "responses": {
+        "200": {
+          "description": "OK"
+        },
+        "500":{
+          "description":"Internal server error"
+        }
+      }
+    }
+  },
+  "/resetpassword": {
+    "put": {
+      "tags": [
+        ""
+      ],
+      "summary": "Reset a user.",
+      "parameters": [
+        {
+          "in": "body",
+          "name": "Reset Data",
+          "required": true,
+          "schema": {
+            "$ref": "#/definitions/ResetPassword"
+          }
+        },
+        {
+          "in": "header",
+          "name": "token",
+          "required": true,
+          "schema": {
+            "$ref": "#/definitions/ResetPassword"
+          }
+        }
+      ],
+      "description": "Reset password",
+      "produces": "application/json",
+      "responses": {
+        "200": {
+          "description": "OK"
+        }
+      }
+    }
+  },
+  "/addNote": {
+    "post": {
+      "tags": [
+        ""
+      ],
+      "summary": "Add a note.",
+      "parameters": [
+        {
+          "in": "body",
+          "name": "addNotes Data",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": [
+              "userId",
+              "userEmail",
+              "title",
+              "description",
+              "color",
+              "isArchived",
+              "isDeleted"
+            ],
+            "properties": {
+              "userId":{
+                "type":"String"
+              },
+              "userEmail":{
+                "type":"String"
+              },
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "color": {
+                "type": "string"
+              },
+              "isArchived": {
+                "type": "string"
+              },
+              "isDeleted": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "in": "header",
+          "name": "token",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": [
+              "token"
+            ],
+            "properties": {
+              "token": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ],
+      "description": "Register a user and get registered user `object` back from the server.",
+      "produces": "application/json",
+      "responses": {
+        "200": {
+          "description": "OK"
+        }
+      }
+    }
+  }
+  },
+  "definitions": {
+    "UserRegistration": {
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+  "UserLogin": {
+    "properties": {
+      "email": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      }
+    }
+  },
+  "ForgetPassword": {
+    "properties": {
+      "email": {
+        "type": "string"
+      }
+    }
+  },
+  "ResetPassword":{
+    "properties": {
+      "email": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      }
+    }
+  }
+}
+}
+  
+
+
