@@ -32,11 +32,3 @@ export const userAuth = async (req, res, next) => {
     next(error);
   }
 }
-
-    /* res.locals.user = user;
-    res.locals.token = bearerToken;
-    next();
-  } catch (error) {
-    next(error)
-  }
-};*/

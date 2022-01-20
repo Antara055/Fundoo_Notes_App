@@ -35,7 +35,7 @@ describe('User APIs Test', () => {
   });
 
   describe('Post/registration API', () => {
-    it('if valid details recieved should save in db', (done) => {
+    /* it('if valid details recieved should save in db', (done) => {
       const userData = userJSON.UserData1;
       console.log(userData)
       request(app)
@@ -49,7 +49,7 @@ describe('User APIs Test', () => {
           expect(res.body.message).to.be.equal('User registerd successfully');
           done();
         });
-    })
+    }) */
     it('if invalid email sent it will give error 400 Bad Request', (done) => {
       const userData = userJSON.UserData2;
       request(app)
@@ -321,12 +321,10 @@ describe('User APIs Test', () => {
         });
     });
 
-    it('if valid token sent with user id : 200 Ok', (done) => {
-      const userData = userJSON.getAllNote1;
+    it('if valid token sent : 200 Ok', (done) => {
       request(app)
         .get('/api/v1/notes/')
         .set({ token: jwtToken })
-        .send(userData)
         .end((err, res) => {
           if (err) {
             console.log(err);
@@ -338,10 +336,8 @@ describe('User APIs Test', () => {
         });
     }),
       it('if invalid token pass : 401 Unauthorized ', (done) => {
-        const userData = userJSON.getAllNote1;
         request(app)
           .get('/api/v1/notes/')
-          .send(userData)
           .set({ token: "invalid token" })
           .end((err, res) => {
             if (err) {
@@ -445,7 +441,7 @@ describe('User APIs Test', () => {
   })
 
 
-  describe('Delete Note By note_id', () => {
+  /* describe('Delete Note By note_id', () => {
     beforeEach((done) => {
       request(app)
         .post('/api/v1/users/login')
@@ -488,7 +484,7 @@ describe('User APIs Test', () => {
             done();
           });
       })
-  })
+  }) */
 
 
   describe('get all Archived Note by user_id', () => {
@@ -503,12 +499,10 @@ describe('User APIs Test', () => {
         });
     });
 
-    it('if valid token sent with note id : 200 Ok', (done) => {
-      const userData = userJSON.archived1;
+    it('if valid token sent : 200 Ok', (done) => {
       request(app)
         .get('/api/v1/notes/note/isArchived')
         .set({ token: jwtToken })
-        .send(userData)
         .end((err, res) => {
           if (err) {
             console.log(err);
@@ -520,10 +514,8 @@ describe('User APIs Test', () => {
         });
     }),
       it('if invalid token pass : 401 Unauthorized ', (done) => {
-        const userData = userJSON.archived1;
         request(app)
           .get('/api/v1/notes/note/isArchived')
-          .send(userData)
           .set({ token: "invalid token" })
           .end((err, res) => {
             if (err) {
@@ -548,12 +540,10 @@ describe('User APIs Test', () => {
         });
     });
 
-    it('if valid token sent with note id : 200 Ok', (done) => {
-      const userData = userJSON.isDelete1;
+    it('if valid token sent : 200 Ok', (done) => {
       request(app)
         .get('/api/v1/notes/note/isDelete')
         .set({ token: jwtToken })
-        .send(userData)
         .end((err, res) => {
           if (err) {
             console.log(err);
@@ -565,10 +555,8 @@ describe('User APIs Test', () => {
         });
     }),
       it('if invalid token pass : 401 Unauthorized ', (done) => {
-        const userData = userJSON.isDelete1;
         request(app)
           .get('/api/v1/notes/note/isDelete')
-          .send(userData)
           .set({ token: "invalid token" })
           .end((err, res) => {
             if (err) {

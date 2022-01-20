@@ -1733,3 +1733,69 @@ info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5
 info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxODcyOH0.GHyFbv84YN4PWh_L1AVX2q0MfIgVjOjKUi3e0xhcOn0 {"timestamp":"2022-01-19T18:58:48.456Z"}
 info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxODcyOH0.GHyFbv84YN4PWh_L1AVX2q0MfIgVjOjKUi3e0xhcOn0 {"timestamp":"2022-01-19T18:58:48.625Z"}
 info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxODcyOH0.GHyFbv84YN4PWh_L1AVX2q0MfIgVjOjKUi3e0xhcOn0 {"timestamp":"2022-01-19T18:58:48.803Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-19T19:08:38.071Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T19:08:38.133Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMxOH0.u5VlWaT4xF-Ue44twG0OozXplEHYBtlo5Un1OJ4iUEM {"timestamp":"2022-01-19T19:08:38.660Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-19T19:08:38.690Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-19T19:08:42.635Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-19T19:08:46.902Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-19T19:08:50.367Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNH0.R3bXJJzWBt08FPJtz23Xrgb5xb_N-u-RoglIkToOL8Y {"timestamp":"2022-01-19T19:08:54.292Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNH0.R3bXJJzWBt08FPJtz23Xrgb5xb_N-u-RoglIkToOL8Y {"timestamp":"2022-01-19T19:08:54.468Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNH0.R3bXJJzWBt08FPJtz23Xrgb5xb_N-u-RoglIkToOL8Y {"timestamp":"2022-01-19T19:08:54.636Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNH0.R3bXJJzWBt08FPJtz23Xrgb5xb_N-u-RoglIkToOL8Y {"timestamp":"2022-01-19T19:08:54.813Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNH0.R3bXJJzWBt08FPJtz23Xrgb5xb_N-u-RoglIkToOL8Y {"timestamp":"2022-01-19T19:08:54.991Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNX0.7Ce_sf-3_tjOAXrlpwi6KM1ewGkXXYIhmqJtVFTvvJc {"timestamp":"2022-01-19T19:08:55.160Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNX0.7Ce_sf-3_tjOAXrlpwi6KM1ewGkXXYIhmqJtVFTvvJc {"timestamp":"2022-01-19T19:08:55.334Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNX0.7Ce_sf-3_tjOAXrlpwi6KM1ewGkXXYIhmqJtVFTvvJc {"timestamp":"2022-01-19T19:08:55.503Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNX0.7Ce_sf-3_tjOAXrlpwi6KM1ewGkXXYIhmqJtVFTvvJc {"timestamp":"2022-01-19T19:08:55.685Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNX0.7Ce_sf-3_tjOAXrlpwi6KM1ewGkXXYIhmqJtVFTvvJc {"timestamp":"2022-01-19T19:08:55.853Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNn0.dSiC_lgkzcTfYG0wTwy2_7ZGg6qS_us8345_acnPdYs {"timestamp":"2022-01-19T19:08:56.029Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNn0.dSiC_lgkzcTfYG0wTwy2_7ZGg6qS_us8345_acnPdYs {"timestamp":"2022-01-19T19:08:56.196Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYxOTMzNn0.dSiC_lgkzcTfYG0wTwy2_7ZGg6qS_us8345_acnPdYs {"timestamp":"2022-01-19T19:08:56.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-19T19:19:26.988Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T19:19:27.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-19T19:22:07.572Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T19:22:07.665Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjYyMDE3NH0.5ul-0GuYhryEZseDx4at_H5VAxLsiRPZ1OrovNx_sxA {"timestamp":"2022-01-19T19:22:54.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-19T19:26:34.961Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T19:26:35.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-19T19:35:37.504Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T19:35:37.561Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-19T19:42:50.381Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T19:42:50.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-19T19:43:37.916Z"}
+info: Connected to the database. {"timestamp":"2022-01-19T19:43:37.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T06:38:14.570Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T06:38:14.706Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2MDY5NH0.4f07_NRmLBq0vahKHzBWnOs3o7_SvQdyzSekAJyTQKE {"timestamp":"2022-01-20T06:38:14.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T08:04:35.466Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T08:04:35.512Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NTk2OX0.mKVVga_PA-CWUs2LamaA_Qww9X4hoENm2Ph1ZC3b1s0 {"timestamp":"2022-01-20T08:06:09.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T08:09:15.614Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T08:09:15.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T08:16:43.883Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T08:16:43.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T08:22:34.745Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T08:22:34.806Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2Njk1NX0.gEJ-Ml8X2vkfpqvopEjmYX_gG-j6FWa2eC5cY26KAjY {"timestamp":"2022-01-20T08:22:35.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T08:24:25.526Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T08:24:25.582Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA2Nn0.DKaP_yQWDnJu-U0glYWXHl9siUPP2r-2FWkdUOPE860 {"timestamp":"2022-01-20T08:24:26.345Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T08:24:26.399Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T08:24:31.545Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T08:24:35.537Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T08:24:39.622Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4M30.tQasaL0IRFnAKW4qHiM-KT_jv01L6LFVVBD6BBAcpMI {"timestamp":"2022-01-20T08:24:43.935Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NH0.WkCHxN2eAo2r0apwIjNf2yUTOH0KXljY8lwi1iqNSRQ {"timestamp":"2022-01-20T08:24:44.117Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NH0.WkCHxN2eAo2r0apwIjNf2yUTOH0KXljY8lwi1iqNSRQ {"timestamp":"2022-01-20T08:24:44.282Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NH0.WkCHxN2eAo2r0apwIjNf2yUTOH0KXljY8lwi1iqNSRQ {"timestamp":"2022-01-20T08:24:44.461Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NH0.WkCHxN2eAo2r0apwIjNf2yUTOH0KXljY8lwi1iqNSRQ {"timestamp":"2022-01-20T08:24:44.630Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NH0.WkCHxN2eAo2r0apwIjNf2yUTOH0KXljY8lwi1iqNSRQ {"timestamp":"2022-01-20T08:24:44.793Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NH0.WkCHxN2eAo2r0apwIjNf2yUTOH0KXljY8lwi1iqNSRQ {"timestamp":"2022-01-20T08:24:44.967Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NX0.xZqG2TvDdOGasBopzEOD7b8Y9E4i2R6ULv_uaIFBBDQ {"timestamp":"2022-01-20T08:24:45.134Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NX0.xZqG2TvDdOGasBopzEOD7b8Y9E4i2R6ULv_uaIFBBDQ {"timestamp":"2022-01-20T08:24:45.315Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NX0.xZqG2TvDdOGasBopzEOD7b8Y9E4i2R6ULv_uaIFBBDQ {"timestamp":"2022-01-20T08:24:45.481Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NX0.xZqG2TvDdOGasBopzEOD7b8Y9E4i2R6ULv_uaIFBBDQ {"timestamp":"2022-01-20T08:24:45.675Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4NX0.xZqG2TvDdOGasBopzEOD7b8Y9E4i2R6ULv_uaIFBBDQ {"timestamp":"2022-01-20T08:24:45.839Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjY2NzA4Nn0.bSFpPlnytB9pldvjFQ2ozUbeFhEEWqqunJWiWEaBuTU {"timestamp":"2022-01-20T08:24:46.007Z"}

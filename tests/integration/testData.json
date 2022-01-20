@@ -70,9 +70,6 @@
         "isArchived": "true",
         "isDeleted": "true"
     },
-    "getAllNote1": {
-        "id": "61e3c1823e983f19701bd8e4"
-    },
     "getNoteByID1": {
         "id": "61e84b77b7738b1b98be10ae"
     },
@@ -87,11 +84,5 @@
     },
     "deleteNoteByID2":{
         "id":"61e85759c67ac91a3c7f7eeb"
-    },
-    "archived1":{
-        "id":"61e3c1823e983f19701bd8e4"
-    },
-    "isDelete1":{
-    "id":"61e3c1823e983f19701bd8e4"
     }
 }
