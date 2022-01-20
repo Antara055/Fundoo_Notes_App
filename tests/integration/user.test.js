@@ -35,7 +35,7 @@ describe('User APIs Test', () => {
   });
 
   describe('Post/registration API', () => {
-    /* it('if valid details recieved should save in db', (done) => {
+     /* it('if valid details recieved should save in db', (done) => {
       const userData = userJSON.UserData1;
       console.log(userData)
       request(app)
@@ -49,7 +49,7 @@ describe('User APIs Test', () => {
           expect(res.body.message).to.be.equal('User registerd successfully');
           done();
         });
-    }) */
+    })  */
     it('if invalid email sent it will give error 400 Bad Request', (done) => {
       const userData = userJSON.UserData2;
       request(app)
@@ -441,7 +441,7 @@ describe('User APIs Test', () => {
   })
 
 
-  /* describe('Delete Note By note_id', () => {
+   /* describe('Delete Note By note_id', () => {
     beforeEach((done) => {
       request(app)
         .post('/api/v1/users/login')

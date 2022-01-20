@@ -9,7 +9,7 @@ const router = express.Router();
 router.get('/',userAuth, noteController.getAllNotes);
 
 //route to create a new note
-router.post("/",userAuth,noteController.addNote);
+router.post("",userAuth,noteController.addNote);
 
 //route to get a single note by their user id
 router.get('/note_id', userAuth, noteController.getNote);

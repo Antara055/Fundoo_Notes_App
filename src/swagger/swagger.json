@@ -140,7 +140,7 @@
         }
       }
     },
-    "/notes/": {
+    "/notes": {
       "post": {
         "tags": [
           ""
@@ -154,8 +154,6 @@
             "schema": {
               "type": "object",
               "required": [
-                "userId",
-                "userEmail",
                 "title",
                 "description",
                 "color",
@@ -163,12 +161,6 @@
                 "isDeleted"
               ],
               "properties": {
-                "userId": {
-                  "type": "String"
-                },
-                "userEmail": {
-                  "type": "String"
-                },
                 "title": {
                   "type": "string"
                 },
@@ -207,8 +199,8 @@
         "description": "Adding new note",
         "produces": "application/json",
         "responses": {
-          "200": {
-            "description": "OK"
+          "201": {
+            "description": "Created"
           }
         }
       }
@@ -262,6 +254,9 @@
             "schema": {
               "type": "object",
               "properties": {
+                "id": {
+                  "type": "string"
+                },
                 "title": {
                   "type": "string"
                 },
@@ -275,9 +270,6 @@
                   "type": "string"
                 },
                 "isDeleted": {
-                  "type": "string"
-                },
-                "_id": {
                   "type": "string"
                 }
               }
@@ -303,13 +295,63 @@
         "description": "Update a Note",
         "produces": "application/json",
         "responses": {
+          "202": {
+            "description": "Accepted"
+          }
+        }
+      }
+    },
+
+
+    "/notes/note_id": {
+      "delete": {
+        "tags": [
+          ""
+        ],
+        "summary": "Delete a note.",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Delete Note",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "token",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "required": [
+                "token"
+              ],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Delete a Note",
+        "produces": "application/json",
+        "responses": {
           "200": {
             "description": "OK"
           }
         }
       }
     },
-    "/isArchieved": {
+
+
+    "/notes/note/isArchived": {
       "get": {
         "tags": [
           ""
@@ -333,7 +375,7 @@
             }
           }
         ],
-        "description": "Get isArchievedNote `object` back from the server.",
+        "description": "Get isArchievedNote notes",
         "produces": "application/json",
         "responses": {
           "200": {
@@ -342,12 +384,12 @@
         }
       }
     },
-    "/isDeleted": {
+    "/notes/note/isDelete": {
       "get": {
         "tags": [
           ""
         ],
-        "summary": "Get is deleted Note",
+        "summary": "Get isdeleted Note",
         "parameters": [
           {
             "in": "header",
