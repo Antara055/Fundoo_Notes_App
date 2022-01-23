@@ -38,8 +38,8 @@
           "application/json"
         ],
         "responses": {
-          "200": {
-            "description": "OK"
+          "201": {
+            "description": "Created"
           },
           "500": {
             "description": "Internal server error"
@@ -156,9 +156,7 @@
               "required": [
                 "title",
                 "description",
-                "color",
-                "isArchived",
-                "isDeleted"
+                "color"
               ],
               "properties": {
                 "title": {
@@ -168,12 +166,6 @@
                   "type": "string"
                 },
                 "color": {
-                  "type": "string"
-                },
-                "isArchived": {
-                  "type": "string"
-                },
-                "isDeleted": {
                   "type": "string"
                 }
               }
@@ -238,8 +230,52 @@
         }
       }
     },
-
-
+    "/notes/{_id}": {
+      "get": {
+        "tags": [
+          ""
+        ],
+        "summary": "get notes by id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "_id",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "token",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "required": [
+                "token"
+              ],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "description": " get note by id",
+        "produces": "application/json",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/notes/note:_id": {
       "put": {
         "tags": [
@@ -264,12 +300,6 @@
                   "type": "string"
                 },
                 "color": {
-                  "type": "string"
-                },
-                "isArchived": {
-                  "type": "string"
-                },
-                "isDeleted": {
                   "type": "string"
                 }
               }
@@ -302,7 +332,98 @@
       }
     },
 
-
+    "/notes/archieve/_id": {
+      "put": {
+        "tags": [
+          ""
+        ],
+        "summary": "Archive a note.",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Archive Note",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "token",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "required": [
+                "token"
+              ],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Archive a Note",
+        "produces": "application/json",
+        "responses": {
+          "202": {
+            "description": "Accepted"
+          }
+        }
+      }
+    },
+    "/notes/trash/_id": {
+      "put": {
+        "tags": [
+          ""
+        ],
+        "summary": "Trashed a note.",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Archive Note",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "in": "header",
+            "name": "token",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "required": [
+                "token"
+              ],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Trash a Note",
+        "produces": "application/json",
+        "responses": {
+          "202": {
+            "description": "Accepted"
+          }
+        }
+      }
+    },
     "/notes/note_id": {
       "delete": {
         "tags": [
@@ -349,8 +470,6 @@
         }
       }
     },
-
-
     "/notes/note/isArchived": {
       "get": {
         "tags": [

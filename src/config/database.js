@@ -3,7 +3,6 @@ import logger from './logger';
 
 const database = async () => {
   try {
-    // Replace database value in the .env file with your database config url
     const DATABASE ='mongodb://localhost:27017/UserRegisterCli'
       process.env.NODE_ENV === 'test'
         ? process.env.DATABASE_TEST

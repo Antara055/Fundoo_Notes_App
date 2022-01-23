@@ -7,7 +7,7 @@ const Password=process.env.password_email
 export const mailSend=(token)=>{
 const transport=nodemailer.createTransport(
     {
-        service: "gmail",
+        service: 'gmail',
         auth:{
             user:"yashichow.sweet500.dgp14@gmail.com",
             pass:Password

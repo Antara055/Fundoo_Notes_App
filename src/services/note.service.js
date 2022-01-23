@@ -1,3 +1,4 @@
+import { client } from '../config/redisdb';
 import Note from '../models/note.model';
 
 //create new notes
@@ -8,25 +9,32 @@ export const newNote = async (req,res) => {
       title:req.title,
       description:req.description,
       color:req.color, 
-      isArchived:req.isArchived,
-      isDeleted:req.isDeleted
+      isArchived:false,
+      isDeleted:false
   })
   return await noteModel.save(); 
-}  /*
-  const data = await Note.create(body);
-  return data; 
-  */
+} 
 
 //get all notes
 export const getAllNotes = async (req,res) => {
-    const data = await Note.find({userId:req.data.id});
+    const data = await Note.find({
+      userId:req.data.id,
+      isArchived: false,
+      isDeleted: false
+    });
+    if(data){
+    await client.set('getAllNotes',JSON.stringify(data))
     return data;
+    }
 };
 
 //get single node by Id
-export const getNote=async(req,res)=>{
-  const data=await Note.findOne({_id:req.id});
-  return data;
+export const getNote=async(_id)=>{
+  const data=await Note.findOne({_id});
+  if(data){
+    await client.set('getSingleNote',JSON.stringify(data));
+    return data;
+  }
 }
 
 //update single notes
@@ -44,20 +52,52 @@ export const updateNote = async(req,res)=>{
   return updatData
 }
 
+//archieve a note
+export const archieveNote = async(req,res) => {
+    const data = await Note.findByIdAndUpdate({
+        _id:req.id
+    }, {
+        $set: {
+            isArchived: true
+        },
+    },{new:true});
+    return data;
+}
+
+//trash a note
+export const trashNote = async(req,res) => {
+  const data = await Note.findByIdAndUpdate({
+      _id:req.id
+  }, {
+      $set: {
+          isDeleted: true,
+          isArchived: false
+      },
+  },{new:true});
+  return data;
+}
+
 //delete single notes
   export const deleteNote = async (req) => {
   const data= await Note.findByIdAndDelete({_id:req.id})
   return '';
   };
+
   
   //fetched archive note
   export const isArchived=async (body)=>{
-    const archivedNotes=await Note.find({userId:body.data.id,isArchived:true});
+    const archivedNotes=await Note.find({
+      userId:body.data.id,
+      isArchived:true
+    });
     return archivedNotes;
   }
 
-  //fetched deleted note
+  //fetched trash note
   export const isDelete=async (body)=>{
-    const deletedNote=await Note.find({userId:body.data.id,isDeleted:true});
+    const deletedNote=await Note.find({
+      userId:body.data.id,
+      isDeleted:true
+    });
     return deletedNote;
   }

@@ -47,10 +47,11 @@ export const getAllNotes = async (req, res, next) => {
  */
 export const getNote = async (req, res, next) => {
   try {
-    const data = await NoteService.getNote(req.body);
+    const data = await NoteService.getNote(req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
+      
       message: 'Note fetched successfully'
     });
   } catch (error) {
@@ -75,6 +76,46 @@ export const updateNote = async (req, res, next) => {
     });
   } catch (error) {
     next(error);
+  }
+};
+
+/**
+ * Controller to archieve a single note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const archieveNote = async(req, res, next) => {
+  try {
+      const data=await NoteService.archieveNote(req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+          code: HttpStatus.ACCEPTED,
+          data: data,
+          message: 'note archieved successfully'
+      });
+  } catch (error) {
+      next(error);
+  }
+};
+
+/**
+ * Controller to trash a single note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+ export const trashNote = async(req, res, next) => {
+  try {
+      const data=await NoteService.trashNote(req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+          code: HttpStatus.ACCEPTED,
+          data: data,
+          message: 'note sent to trash successfully'
+      });
+  } catch (error) {
+      next(error);
   }
 };
 

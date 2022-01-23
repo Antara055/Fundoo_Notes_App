@@ -1,0 +1,156 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T18:32:09.878Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T18:32:09.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T18:36:53.992Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T18:36:54.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T18:37:59.271Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T18:37:59.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T18:38:39.543Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T18:38:39.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T18:42:07.709Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T18:42:07.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T18:42:22.149Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T18:42:22.318Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T18:45:42.454Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T18:45:42.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T18:46:45.868Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T18:46:46.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:02:45.612Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:02:45.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:09:52.272Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:09:52.459Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5M30.TGjxt1Y7fRWFMAO0VZk_JE38GbkyW0Le1F71wOk2sAw {"timestamp":"2022-01-20T19:09:53.154Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T19:09:53.230Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T19:09:53.624Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5M30.TGjxt1Y7fRWFMAO0VZk_JE38GbkyW0Le1F71wOk2sAw {"timestamp":"2022-01-20T19:09:53.833Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NH0.x8AXx7h5LxxeojjUKhfL4rFsXxqS8fOGtZtKMmmgc10 {"timestamp":"2022-01-20T19:09:54.056Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NH0.x8AXx7h5LxxeojjUKhfL4rFsXxqS8fOGtZtKMmmgc10 {"timestamp":"2022-01-20T19:09:54.225Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NH0.x8AXx7h5LxxeojjUKhfL4rFsXxqS8fOGtZtKMmmgc10 {"timestamp":"2022-01-20T19:09:54.407Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NH0.x8AXx7h5LxxeojjUKhfL4rFsXxqS8fOGtZtKMmmgc10 {"timestamp":"2022-01-20T19:09:54.676Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NH0.x8AXx7h5LxxeojjUKhfL4rFsXxqS8fOGtZtKMmmgc10 {"timestamp":"2022-01-20T19:09:54.850Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NX0.QimmjdoaZTb0aVHBIs3wUBWU-dNtjcv3AzLvjg4563g {"timestamp":"2022-01-20T19:09:55.035Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NX0.QimmjdoaZTb0aVHBIs3wUBWU-dNtjcv3AzLvjg4563g {"timestamp":"2022-01-20T19:09:55.219Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NX0.QimmjdoaZTb0aVHBIs3wUBWU-dNtjcv3AzLvjg4563g {"timestamp":"2022-01-20T19:09:55.621Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5NX0.QimmjdoaZTb0aVHBIs3wUBWU-dNtjcv3AzLvjg4563g {"timestamp":"2022-01-20T19:09:55.801Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5Nn0.L2wGKduvB5bqWJYJgNHzbBtC2NERIa3kjF1l63g0ZNY {"timestamp":"2022-01-20T19:09:56.003Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5Nn0.L2wGKduvB5bqWJYJgNHzbBtC2NERIa3kjF1l63g0ZNY {"timestamp":"2022-01-20T19:09:56.169Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZTNjMTgyM2U5ODNmMTk3MDFiZDhlNCIsImVtYWlsIjoiZnJ1aXRzQGdtYWlsLmNvbSIsImlhdCI6MTY0MjcwNTc5Nn0.L2wGKduvB5bqWJYJgNHzbBtC2NERIa3kjF1l63g0ZNY {"timestamp":"2022-01-20T19:09:56.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:16:26.355Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:16:26.589Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T19:16:52.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:18:25.717Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:18:25.908Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T19:18:32.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:27:45.755Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:27:45.916Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-20T19:28:06.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:37:12.890Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:37:12.955Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:37:26.724Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:37:26.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:38:07.603Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:38:07.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:39:43.021Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:39:43.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:42:22.740Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:42:22.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:42:45.833Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:42:45.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:44:36.531Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:44:36.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:44:51.807Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:44:51.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:45:59.613Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:45:59.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:46:39.550Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:46:39.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:49:10.055Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:49:10.121Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:56:33.768Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:56:33.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:57:52.229Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:57:52.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-20T19:59:16.262Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T19:59:16.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T05:44:47.151Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T05:44:47.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T05:45:22.260Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T05:45:22.455Z"}
+info: Token for Reset password--eyJhbGciOiJIUzI1NiJ9.cmVzZXRwYXNzd29yZEBnbWFpbC5jb20.JIMf_B1vSD4HkX0ZNF6_sHbrqUE47oiFP0a6IXWTfkY {"timestamp":"2022-01-21T06:29:57.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:30:47.768Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:30:47.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:34:09.249Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:34:09.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:34:50.165Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:34:50.329Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:36:51.033Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:36:51.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:38:08.674Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:38:08.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:38:48.748Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:38:48.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:39:15.309Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:39:15.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:39:33.282Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:39:33.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:41:15.794Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:41:16.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:42:17.653Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:42:17.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:43:03.926Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:43:04.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:43:48.657Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:43:48.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:45:43.606Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:45:43.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:46:27.865Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:46:28.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:46:55.792Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:46:56.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:56:06.404Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:56:06.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:58:45.525Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:58:45.741Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T06:59:04.261Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T06:59:04.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T07:02:43.653Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T07:02:43.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T07:59:01.004Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T07:59:01.167Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T08:34:32.347Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T08:34:32.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T16:01:01.684Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T16:01:01.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T16:02:58.465Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T16:02:58.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T16:53:11.423Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T16:53:11.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T16:55:17.452Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T16:55:17.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T16:58:48.054Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T16:58:48.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T17:31:45.546Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T17:31:45.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T17:35:13.414Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T17:35:13.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T17:36:19.860Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T17:36:19.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T17:36:52.868Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T17:36:53.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T17:37:20.357Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T17:37:20.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T17:38:40.504Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T17:38:40.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T17:39:50.001Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T17:39:50.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T18:04:31.128Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:04:31.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T18:14:52.976Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:14:53.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T18:16:44.904Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:16:45.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T18:18:15.805Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:18:15.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T18:19:40.701Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:19:40.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-21T18:25:10.105Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:25:10.242Z"}

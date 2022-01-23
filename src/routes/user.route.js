@@ -18,13 +18,4 @@ router.post("/forgetpassword",userController.forgetpassword)
 router.put("/resetpassword",userAuth,userController.resettpassword)
 
 
-//route to get a single user by their user id
-//router.get('/:_id', userAuth, userController.getUser);
-
-//route to update a single user by their user id
-//router.put('/:_id',userAuth, userController.updateUser);
-
-//route to delete a single user by their user id
-//router.delete('/:_id', userController.deleteUser);
-
 export default router;
