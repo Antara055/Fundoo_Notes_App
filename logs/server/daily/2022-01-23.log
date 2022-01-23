@@ -96,3 +96,5 @@ info: Connected to the database. {"timestamp":"2022-01-23T14:02:48.667Z"}
 info: Server started at http://localhost:000/api/v1/ {"timestamp":"2022-01-23T15:17:20.769Z"}
 info: Connected to the database. {"timestamp":"2022-01-23T15:17:20.825Z"}
 info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWQ3MWQ4YjY0YzIzMTczMDAyY2FkNiIsImVtYWlsIjoiYmlyZHNuYW1lQGdtYWlsLmNvbSIsImlhdCI6MTY0Mjk1MTE4MH0.btrGuyrWwEeCwIq9hCbopEv2Yvs8HwRZYkoc4rKvXPI {"timestamp":"2022-01-23T15:19:40.121Z"}
+info: Server started at http://localhost:000/api/v1/ {"timestamp":"2022-01-23T15:39:25.526Z"}
+info: Connected to the database. {"timestamp":"2022-01-23T15:39:25.624Z"}
